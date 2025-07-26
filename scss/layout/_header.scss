@@ -1,0 +1,137 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    backdrop-filter: blur(14px);
+    background-color: black;
+
+}
+
+.novbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.novbar2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.novbar__menus {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.novbar__menus a {
+    color: white;
+}
+
+.novbar__button {
+    width: 184px;
+    height: 47px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #5468E780;
+    background-color: #5468E780;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.novbar svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+    display: none;
+}
+
+.novbar__button a {
+    color: white;
+}
+
+.novbar__menus2 a {
+    color: black;
+}
+
+.novbar__blog__menus {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.novbar__blog__menus a {
+    color: black;
+}
+
+@media (max-width:900px) {
+    .novbar__menus {
+        display: none;
+    }
+
+    .novbar__menus2 {
+        display: none;
+    }
+
+    .novbar__button {
+        display: none;
+    }
+
+    .novbar svg {
+        display: block;
+    }
+
+}
+
+@media (max-width:460px) {
+    .novbar__menus {
+        display: none;
+    }
+
+    .novbar__menus2 {
+        display: none;
+    }
+
+    .novbar__button {
+        display: none;
+    }
+
+    .novbar svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .novbar_logo{
+        width: 110px;
+    }
+
+}
+@media (max-width:400px) {
+    .novbar__menus {
+        display: none;
+    }
+
+    .novbar__menus2 {
+        display: none;
+    }
+
+    .novbar__button {
+        display: none;
+    }
+
+    .novbar svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+    .novbar_logo{
+        width: 100px;
+    }
+
+}
