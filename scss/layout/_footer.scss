@@ -14,28 +14,41 @@ footer img {
     line-height: 23px;
     display: flex;
 }
-.footer__content{
+
+.footer__content {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
-.footer__menus{
+
+.footer__menus {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding-top: 95px;
     color: #F5F5F5;
 }
-.footer__menus__first{
+
+.footer__menus__first {
     font-size: 24px;
     color: #5468E7;
 }
-.footer__input{
+
+.footer__input {
     font-size: 14px;
     width: 268px;
     height: 46px;
     outline: none;
     padding-left: 10px;
 }
-.footer__menus li input{
+
+.footer__menus li input {
     font-size: 14px;
+}
+
+@media (max-width:1050px) {
+    .footer__content {
+       display: flex;
+       flex-wrap: wrap;
+        gap: 50px;
+    } 
 }

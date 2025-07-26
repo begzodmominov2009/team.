@@ -68,6 +68,13 @@ footer img {
   font-size: 14px;
 }
 
+@media (max-width: 1050px) {
+  .footer__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -594,6 +601,29 @@ body {
   }
   .content__description {
     font-size: 14px;
+  }
+}
+@media (max-width: 1050px) {
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: px;
+  }
+}
+@media (max-width: 800px) {
+  .about__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__title {
+    font-size: 45px;
+  }
+  .about__card__additior {
+    margin-top: 10px;
+  }
+  .about__card {
+    margin-top: 30px;
   }
 }
 #team {
