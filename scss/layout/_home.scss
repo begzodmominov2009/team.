@@ -395,9 +395,10 @@ body {
         display: flex;
         flex-wrap: wrap;
         //    justify-content: center;
-        padding-right: 20px;
+
     }
-    #content{
+
+    #content {
         padding-top: -50px;
     }
 
@@ -405,7 +406,8 @@ body {
         padding-left: 0px;
         width: 94%;
     }
-    .content__title{
+
+    .content__title {
         padding-top: 0px;
     }
 }
@@ -422,13 +424,24 @@ body {
 }
 
 @media (max-width:440px) {
-    .content__title {
-        font-size: 40px;
-        line-height: 46px;
+    .container{
+        padding-left: 0px;
     }
+    .content__info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // padding-left: 0px;
+        // margin-right: 25px;
 
-    .content__description {
-        font-size: 16px;
+        .content__title {
+            font-size: 40px;
+            line-height: 46px;
+        }
+
+        .content__description {
+            font-size: 16px;
+        }
     }
 }
 
@@ -442,6 +455,7 @@ body {
         font-size: 15px;
     }
 }
+
 @media (max-width:387px) {
     .content__title {
         font-size: 35px;
@@ -452,26 +466,31 @@ body {
         font-size: 14px;
     }
 }
+
 @media (max-width:1050px) {
-    .about__cards{
+    .about__cards {
         display: flex;
         flex-wrap: wrap;
         padding-right: px;
     }
 }
+
 @media (max-width:800px) {
-    .about__cards{
+    .about__cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .about__title{
-        font-size: 45px;
+
+    .about__title {
+        font-size: 40px;
     }
-    .about__card__additior{
+
+    .about__card__additior {
         margin-top: 10px;
     }
-    .about__card{
+
+    .about__card {
         margin-top: 30px;
     }
 }
