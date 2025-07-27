@@ -1,0 +1,143 @@
+.sing__contact {
+    display: flex;
+    gap: 8px;
+}
+
+.sing__contact a {
+    color: #5F6C72;
+}
+
+#sing1 {
+    background-color: #F2F4F5;
+    padding-top: 255px;
+    padding-bottom: 20px;
+}
+
+#sing {
+    margin-bottom: 132px;
+}
+
+.sing__buttons {
+    display: flex;
+}
+
+.sing__password {
+    padding-right: 15px;
+}
+
+.sing__button {
+    width: 212px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 4px solid var(--orenge-color);
+}
+
+.sing__button3 {
+    width: 212px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    /* border-bottom: 2px solid ; */
+    margin-bottom: 25px;
+}
+
+.sing__button a {
+    color: black;
+}
+
+.sing__card {
+    max-width: 424px;
+    width: 100%;
+    height: 530px;
+    border: 2px solid #E4E7E9;
+    border-radius: 4px;
+    margin-left: 450px;
+    margin-top: 70px;
+}
+
+.sing__lable {
+    padding-left: 34px;
+    font-size: 16px;
+    color: black;
+}
+
+.sing__input {
+    margin-left: 32px;
+    margin-top: 8px;
+    max-width: 360px;
+    width: 100%;
+    height: 44px;
+    border: 2px solid #E4E7E9;
+    border-radius: 3px;
+    outline: none;
+    padding-left: 15px;
+    margin-bottom: 26px;
+    background-color: transparent;
+}
+
+.sing__lable2 {
+    padding-left: 32px;
+    color: black;
+    font-size: 14px;
+}
+
+.sing__lable3 {
+    color: #2DA5F3;
+    font-size: 14px;
+    padding-left: 186px;
+}
+
+.sing__button2__img {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sing__button2 {
+    width: 360px;
+    height: 48px;
+    background-color: var(--orenge-color);
+    border: none;
+    padding-left: 130px;
+    margin-left: 32px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sing__button2 a {
+    color: white;
+}
+
+hr {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 34px;
+}
+
+.sing__mini__card {
+    width: 360px;
+    height: 44px;
+    border: 2px solid #E4E7E9;
+    margin-left: 32px;
+    padding-top: 10px;
+    padding-left: 16px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sing__mini__card2 {
+    margin-top: 18px;
+}
+
+.sing__mini__content {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.sing__mini__card a {
+    color: black;
+}

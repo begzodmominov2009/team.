@@ -1,0 +1,94 @@
+#forget {
+    margin-bottom: 132px;
+}
+
+.forget__card {
+    height: 472px;
+    width: 424px;
+    border: 2px solid #E4E7E9;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+.forget__title {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.forget__description {
+    text-align: center;
+    padding-top: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #5F6C72;
+    padding-bottom: 24px;
+}
+
+.forget__contact a {
+    color: #2DA5F3;
+}
+
+.forget__lable {
+    margin-left: 32px;
+    color: black;
+}
+
+.forget__email {
+    margin-left: 32px;
+    margin-top: 8px;
+    width: 360px;
+    height: 44px;
+    outline: none;
+    border: 2px solid #E4E7E9;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+.forget__button a {
+    color: white;
+}
+
+.forget__button {
+    margin-left: 32px;
+    width: 360px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--orenge-color);
+    padding-left: 125px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.forget__button__img {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.forget__contact {
+    display: flex;
+    gap: 6px;
+    padding-left: 32px;
+    padding-top: 24px;
+}
+
+.forget__contact2 {
+    padding-top: 8px;
+}
+
+.forget__contact p {
+    color: #5F6C72;
+}
+
+.forget__description2 {
+    padding-left: 32px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.forget__lable2 {
+    padding-left: 135px;
+    color: #2DA5F3;
+}
