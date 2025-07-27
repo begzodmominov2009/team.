@@ -1,4 +1,7 @@
+@import "./vendors/bootstrap";
 @import "./base/reset";
+@import "./utils/variables";
+@import "./utils/mixins.scss";
 @import "./layout/footer";
 @import "./layout/header";
 @import "./layout/home";

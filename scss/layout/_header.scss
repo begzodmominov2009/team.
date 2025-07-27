@@ -4,6 +4,7 @@ header {
     width: 100%;
     z-index: 1;
     backdrop-filter: blur(14px);
+    background-color: gray;
 
 }
 
@@ -69,6 +70,11 @@ header {
     color: black;
 }
 
+#toggle {
+    background-color: transparent;
+    border: none;
+}
+
 @media (max-width:900px) {
     .novbar__menus {
         display: none;
@@ -106,16 +112,19 @@ header {
         width: 30px;
         height: 30px;
     }
-    .novbar_logo{
+
+    .novbar_logo {
         width: 110px;
         padding-left: 20px;
     }
 
 }
+
 @media (max-width:430px) {
     .novbar__menus {
         display: none;
     }
+
     .novbar__menus2 {
         display: none;
     }
@@ -129,9 +138,257 @@ header {
         width: 30px;
         height: 30px;
     }
-    .novbar_logo{
+
+    .novbar_logo {
         width: 100px;
         margin-left: 20px;
     }
+
+}
+
+.novbar__res__menus {
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    height: 100vh;
+    width: 40vw;
+    transform: translateX(250%);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    transition: 1s;
+}
+
+.show {
+    transform: translateX(150%);
+}
+
+.novbar__res__menus a {
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.novbar__res__menus li {
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+    height: 60px;
+    transition: 0.5s;
+}
+
+.novbar__res__menus li:hover {
+    background-color: whitesmoke;
+}
+
+.novbar__res__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.novbar__res__profile img {
+    width: 80px;
+}
+
+.nav__profile__description1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav__profile__description2 {
+    font-size: 14px;
+}
+
+.nav__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 90px;
+    gap: 10px;
+    padding-top: 5px;
+    transition: 0.5s;
+}
+
+.nav__img__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+
+#close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+#close:hover {
+    border: 2px solid black;
+}
+
+@media (max-width:710px) {
+    .nav__img {
+        padding-left: 70px;
+    }
+}
+
+@media (max-width:600px) {
+    .nav__img {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width:530px) {
+    .nav__img {
+        padding-left: 30px;
+        font-size: 18px;
+    }
+
+    .nav__img__logo {
+        padding-left: 20px;
+    }
+
+    .novbar__res__menus {
+        font-size: 16px;
+    }
+
+    .nav__profile__description1 {
+        font-size: 14px;
+    }
+
+    .nav__profile__description2 {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+
+    .novbar__res__profile {
+        width: 20px;
+    }
+
+    #close {
+        width: 34px;
+        margin-top: -25px;
+        margin-right: -15px;
+    }
+}
+
+@media (max-width:440px) {
+    .nav__img {
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .novbar__res__menus {
+        font-size: 16px;
+    }
+
+    .nav__profile__description1 {
+        font-size: 15px;
+    }
+
+    .nav__profile__description2 {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .novbar__res__profile {
+        width: 20px;
+    }
+
+    #close {
+        width: 34px;
+        margin-top: -25px;
+        margin-right: -15px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .nav__img {
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+    .novbar__res__menus {
+        font-size: 15px;
+    }
+
+    .nav__profile__description1 {
+        font-size: 14px;
+    }
+
+    .nav__profile__description2 {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .novbar__res__profile {
+        width: 20px;
+    }
+
+    #close {
+        width: 34px;
+        margin-top: -25px;
+        margin-right: -15px;
+    }
+
+
+}
+
+@media (max-width:370px) {
+    .nav__img {
+        padding-left: 10px;
+        padding-top: 5px;
+        font-size: 14px;
+    }
+
+    .novbar__res__menus {
+        font-size: 12px;
+    }
+
+    .nav__profile__description1 {
+        font-size: 14px;
+    }
+
+    .nav__profile__description2 {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .novbar__res__profile {
+        width: 20px;
+    }
+
+    #close {
+        width: 34px;
+        margin-top: -25px;
+        margin-right: -15px;
+    }
+
 
 }
