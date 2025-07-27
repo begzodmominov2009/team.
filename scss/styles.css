@@ -1354,34 +1354,15 @@ hr {
 @media (max-width: 900px) {
   .sing__card {
     margin-left: 180px;
+    margin-left: 0px;
+  }
+  .sing__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   #sing {
     margin-right: 20px;
-  }
-}
-@media (max-width: 700px) {
-  .sing__card {
-    margin-left: 120px;
-  }
-}
-@media (max-width: 600px) {
-  .sing__card {
-    margin-left: 80px;
-  }
-}
-@media (max-width: 540px) {
-  .sing__card {
-    margin-left: 40px;
-  }
-}
-@media (max-width: 500px) {
-  .sing__card {
-    margin-left: 20px;
-  }
-}
-@media (max-width: 470px) {
-  .sing__card {
-    margin-left: 0px;
   }
 }
 @media (max-width: 480px) {
@@ -1397,11 +1378,8 @@ hr {
   }
 }
 @media (max-width: 460px) {
-  .sing__lable3 {
-    padding-left: 140px;
-  }
   #sing1 {
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 20px;
   }
   #sing1 img {
@@ -1415,11 +1393,6 @@ hr {
   }
   .sing__card {
     width: 370px;
-  }
-}
-@media (max-width: 430px) {
-  #sing1 {
-    padding-left: 20px;
   }
 }
 @media (max-width: 400px) {
@@ -1503,14 +1476,14 @@ hr {
 }
 
 .forget__lable {
-  margin-left: 32px;
+  margin-left: 12px;
   color: black;
 }
 
 .forget__email {
-  margin-left: 32px;
+  margin-left: 12px;
   margin-top: 8px;
-  width: 360px;
+  width: 95%;
   height: 44px;
   outline: none;
   border: 2px solid #E4E7E9;
@@ -1523,8 +1496,8 @@ hr {
 }
 
 .forget__button {
-  margin-left: 32px;
-  width: 360px;
+  margin-left: 12px;
+  width: 95%;
   height: 48px;
   border-radius: 5px;
   border: none;
@@ -1543,7 +1516,7 @@ hr {
 .forget__contact {
   display: flex;
   gap: 6px;
-  padding-left: 32px;
+  padding-left: 12px;
   padding-top: 24px;
 }
 
@@ -1556,7 +1529,8 @@ hr {
 }
 
 .forget__description2 {
-  padding-left: 32px;
+  padding-left: 12px;
+  padding-top: 5px;
   font-size: 14px;
   line-height: 20px;
 }
@@ -1564,4 +1538,59 @@ hr {
 .forget__lable2 {
   padding-left: 135px;
   color: #2DA5F3;
+}
+
+@media (max-width: 900px) {
+  .forget__card {
+    margin-left: 0px;
+  }
+  .forget__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 510px) {
+  .forget__content {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 430px) {
+  #forget {
+    margin-right: 15px;
+  }
+  .forget__card {
+    width: 400px;
+  }
+  .forget__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1% px;
+    margin-left: 4%;
+  }
+  #sing1 {
+    font-size: 14px;
+    padding-left: 2;
+  }
+}
+@media (max-width: 39px) {
+  #forget {
+    margin-right: 15px;
+  }
+  .forget__card {
+    width: 370px;
+  }
+  .forget__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1% px;
+    margin-left: 4%;
+  }
+  #sing1 {
+    font-size: 14px;
+    padding-left: 2;
+  }
 }/*# sourceMappingURL=styles.css.map */
