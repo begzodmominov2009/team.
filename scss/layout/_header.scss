@@ -151,7 +151,7 @@ header {
     position: fixed;
     z-index: 1;
     height: 100vh;
-    width: 40vw;
+    width: 60vw;
     transform: translateX(250%);
     font-size: 20px;
     display: flex;
@@ -167,7 +167,7 @@ header {
 }
 
 .show {
-    transform: translateX(150%);
+    transform: translateX(70%);
 }
 
 .novbar__res__menus a {
@@ -252,19 +252,19 @@ header {
 
 @media (max-width:710px) {
     .nav__img {
-        padding-left: 70px;
+        padding-left: 90px;
     }
 }
 
 @media (max-width:600px) {
     .nav__img {
-        padding-left: 50px;
+        padding-left: 90px;
     }
 }
 
 @media (max-width:530px) {
     .nav__img {
-        padding-left: 30px;
+        padding-left: 90px;
         font-size: 18px;
     }
 
@@ -291,14 +291,14 @@ header {
 
     #close {
         width: 34px;
-        margin-top: -25px;
-        margin-right: -15px;
+         margin-top: -15px;
+        margin-right: -8px;
     }
 }
 
 @media (max-width:440px) {
     .nav__img {
-        padding-left: 15px;
+        padding-left: 60px;
         font-size: 18px;
     }
 
@@ -321,15 +321,15 @@ header {
 
     #close {
         width: 34px;
-        margin-top: -25px;
-        margin-right: -15px;
+        margin-top: -15px;
+        margin-right: -8px;
     }
 
 }
 
 @media (max-width:400px) {
     .nav__img {
-        padding-left: 10px;
+        padding-left: 50px;
         padding-top: 5px;
         font-size: 16px;
     }
@@ -353,8 +353,8 @@ header {
 
     #close {
         width: 34px;
-        margin-top: -25px;
-        margin-right: -15px;
+        margin-top: -15px;
+        margin-right: -8px;
     }
 
 
@@ -362,7 +362,7 @@ header {
 
 @media (max-width:370px) {
     .nav__img {
-        padding-left: 10px;
+        padding-left: 40px;
         padding-top: 5px;
         font-size: 14px;
     }
@@ -386,8 +386,8 @@ header {
 
     #close {
         width: 34px;
-        margin-top: -25px;
-        margin-right: -15px;
+        margin-top: -15px;
+        margin-right: -8px;
     }
 
 
