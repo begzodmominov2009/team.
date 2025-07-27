@@ -60,7 +60,10 @@ body {
 .content__info {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 56px;
+    gap: 158px;
+}
+.content__info img{
+    margin-left: -80px;
 }
 
 .content__title {
@@ -82,6 +85,9 @@ body {
     gap: 15px;
     color: #5468E7;
     padding-top: 51px;
+}
+.content__link img{
+    padding-left: 80px;
 }
 
 #content2 {
@@ -114,9 +120,52 @@ body {
     height: 375px;
 }
 
+.about__card__star {
+    width: 20px;
+}
+
+@media (max-width:460px) {
+    .about__cards {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:410px) {
+    .about__cards {
+        margin-left: 35px
+    }
+}
+
+@media (max-width:390px) {
+    .about__cards {
+        margin-left: 11px;
+    }
+}
+
+@media (max-width:386px) {
+    .about__cards {
+        margin-left: 20px;
+    }
+
+    .about__card {
+        width: 327px;
+    }
+}
+
+@media (max-width:370px) {
+    .about__cards {
+        margin-left: 15px;
+    }
+
+    .about__card {
+        width: 317px;
+    }
+}
+
 .about__card img {
     padding-left: 33px;
     padding-top: 44px;
+    max-width: 180px;
 }
 
 .about__description {
@@ -131,7 +180,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 20.5px;
+    padding-top: .5px;
 }
 
 .about__card__profile__avator img {
@@ -142,7 +191,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 70.5px;
+    padding-top: 50.5px;
 }
 
 .about__card__profile__avator2 img {
@@ -153,7 +202,7 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-top: 40.5px;
+    padding-top: 25px;
 }
 
 .about__card__profile__avator3 img {
@@ -345,10 +394,12 @@ body {
         line-height: 36px;
         padding-left: 20px;
     }
-    .home__description{
+
+    .home__description {
         padding-left: 20px;
         font-size: 14px;
     }
+
     .home__button {
         width: 94%;
         margin-right: 20px;
@@ -540,4 +591,67 @@ body {
     .about__card {
         margin-top: 30px;
     }
+}
+
+.owl-nav {
+    position: absolute;
+    top: 10px;
+}
+
+.owl-prev {
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.owl-prev span {
+    color: black;
+    font-size: 24px !important;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-next{
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.owl-next span {
+    color: black;
+    font-size: 24px !important;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-prev:hover{
+    background-color: gray;
+}
+.owl-prev:hover span{
+    color: white;
+}
+.owl-next:hover span{
+    color: white;
+}
+#loading{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.715);
+    z-index: 10;
+    transition: 4s;
+}
+#loading img{
+    width: 80px;
+}
+.stop-load{
+    opacity: 0;
+    z-index: -1 !important;
 }

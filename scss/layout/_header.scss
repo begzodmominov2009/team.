@@ -5,7 +5,8 @@ header {
     z-index: 1;
     transition: 0.5s;
 }
-.shrink{
+
+.shrink {
     backdrop-filter: blur(12px);
 }
 
@@ -29,6 +30,10 @@ header {
     display: flex;
     gap: 60px;
     font-size: 18px;
+}
+
+.novbar__menus2 a {
+    color: black;
 }
 
 .novbar__menus a {
@@ -292,7 +297,7 @@ header {
 
     #close {
         width: 34px;
-         margin-top: -15px;
+        margin-top: -15px;
         margin-right: -8px;
     }
 }

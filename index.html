@@ -6,9 +6,107 @@
     <meta name="viewport" content="width=`, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
+    <div id="loading">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="200"
+            height="200" style="shape-rendering: auto; display: block; background: transparent;"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+                <g transform="translate(80,50)">
+                    <g transform="rotate(0)">
+                        <circle fill-opacity="1" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.875s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.875s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(71.21320343559643,71.21320343559643)">
+                    <g transform="rotate(45)">
+                        <circle fill-opacity="0.875" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.85s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.75s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(50,80)">
+                    <g transform="rotate(90)">
+                        <circle fill-opacity="0.75" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.625s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.625s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(28.786796564403577,71.21320343559643)">
+                    <g transform="rotate(135)">
+                        <circle fill-opacity="0.625" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.5s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.5s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(20,50.00000000000001)">
+                    <g transform="rotate(180)">
+                        <circle fill-opacity="0.5" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.375s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.375s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(28.78679656440357,28.786796564403577)">
+                    <g transform="rotate(225)">
+                        <circle fill-opacity="0.375" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.25s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.25s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(49.99999999999999,20)">
+                    <g transform="rotate(270)">
+                        <circle fill-opacity="0.25" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="-0.125s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="-0.125s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g transform="translate(71.21320343559643,28.78679656440357)">
+                    <g transform="rotate(315)">
+                        <circle fill-opacity="0.125" fill="#ff727d" r="6" cy="0" cx="0">
+                            <animateTransform repeatCount="indefinite" dur="1s" keyTimes="0;1" values="1.5 1.5;1 1"
+                                begin="0s" type="scale" attributeName="transform"></animateTransform>
+                            <animate begin="0s" values="1;0" repeatCount="indefinite" dur="1s" keyTimes="0;1"
+                                attributeName="fill-opacity"></animate>
+                        </circle>
+                    </g>
+                </g>
+                <g></g>
+            </g><!-- [ldio] generated by https://loading.io -->
+        </svg>
+    </div>
+
     <header id="header">
         <div class="container novbar">
             <a href="./index.html">
@@ -28,7 +126,7 @@
                     <a href="">Support</a>
                 </li>
                 <li>
-                    <a href="">Log In</a>
+                    <a href="./scss/pages/register.html">Log In</a>
                 </li>
             </ul>
             <button id="toggle">
@@ -97,7 +195,7 @@
                     <path
                         d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z" />
                 </svg>
-                <a href="">Log In</a>
+                <a href="./scss/pages/register.html">Log In</a>
             </div>
         </li>
         <li>
@@ -127,7 +225,7 @@
                 <a href="https://x.com/">
                     <img src="./assets/images/twitter.png" alt="logo">
                 </a>
-            </div>
+                </div>
         </li>
     </ul>
 
@@ -238,8 +336,8 @@
         <section id="about">
             <div class="container">
                 <h1 class="about__title">What people say about Team</h1>
-                <div class="about__cards">
-                    <div class="about__card">
+                <div class="owl-carousel owl-theme about__cards">
+                    <div class="item about__card">
                         <img src="./assets/images/Star.png" alt="Star">
                         <p class="about__description">Vestibulum eu quam nec neque <br> pellentesque efficitur id eget
                             nisl. <br> Proin porta est convallis
@@ -256,7 +354,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about__card about__card__additior">
+                    <div class="item about__card about__card__additior">
                         <img src="./assets/images/Star.png" alt="Star">
                         <p class="about__description">In a laoreet purus. Integer turpis <br> quam, laoreet id orci nec,
                             ultrices <br> lacinia nunc. Aliquam erat <br> volutpat. Curabitur fringilla in <br> purus
@@ -272,7 +370,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="about__card about__card__additior">
+                    <div class="item about__card about__card__additior">
                         <img src="./assets/images/Star.png" alt="Star">
                         <p class="about__description">Aliquam pulvinar vestibulum <br> blandit. Donec sed nisl libero.
                             <br> Fusce
@@ -290,8 +388,43 @@
                             </div>
                         </div>
                     </div>
+                    <div class="item about__card about__card__additior">
+                        <img src="./assets/images/Star.png" alt="Star">
+                        <p class="about__description">Aliquam pulvinar vestibulum <br> blandit. Donec sed nisl libero.
+                            <br> Fusce
+                            dignissim luctus sem eu <br> dapibus. Pellentesque vulputate <br> quam a quam volutpat, sed
+                            <br>
+                            ullamcorper erat commodo.
+                        </p>
+                        <div class="about__card__profile__avator3">
+                            <div>
+                                <img src="./assets/images/nike_avator.png" alt="Avator">
+                            </div>
+                            <div>
+                                <p class="about__card__title">Lana Rosenfeld</p>
+                                <p class="about__card__description">Senior VP ot Pinterest</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item about__card about__card__additior">
+                        <img class="about__card__star" src="./assets/images/Star.png" alt="Star">
+                        <p class="about__description">Aliquam pulvinar vestibulum <br> blandit. Donec sed nisl libero.
+                            <br> Fusce
+                            dignissim luctus sem eu <br> dapibus. Pellentesque vulputate <br> quam a quam volutpat, sed
+                            <br>
+                            ullamcorper erat commodo.
+                        </p>
+                        <div class="about__card__profile__avator3">
+                            <div>
+                                <img class="about__card__img" src="./assets/blog/devon_avator.png" alt="Avator">
+                            </div>
+                            <div>
+                                <p class="about__card__title">Lana Rosenfeld</p>
+                                <p class="about__card__description">Senior VP ot Pinterest</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
     </main>
 
@@ -334,8 +467,15 @@
             </div>
         </div>
     </footer>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./Js/main.js"></script>
+
 </body>
 
 </html>

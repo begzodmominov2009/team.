@@ -9,7 +9,7 @@
 
 #sing1 {
     background-color: #F2F4F5;
-    padding-top: 255px;
+    padding-top: 85px;
     padding-bottom: 20px;
 }
 
@@ -30,7 +30,7 @@
     height: 60px;
     border: none;
     background-color: transparent;
-    border-bottom: 4px solid var(--orenge-color);
+    border-bottom: 4px solid #5468E7;
 }
 
 .sing__button3 {
@@ -52,8 +52,9 @@
     height: 530px;
     border: 2px solid #E4E7E9;
     border-radius: 4px;
-    margin-left: 450px;
-    margin-top: 70px;
+    margin-left: 400px;
+    margin-top: 40px;
+    background-color: white;
 }
 
 .sing__lable {
@@ -63,9 +64,9 @@
 }
 
 .sing__input {
-    margin-left: 32px;
+    margin-left: 12px;
     margin-top: 8px;
-    max-width: 360px;
+    max-width: 95%;
     width: 100%;
     height: 44px;
     border: 2px solid #E4E7E9;
@@ -73,7 +74,6 @@
     outline: none;
     padding-left: 15px;
     margin-bottom: 26px;
-    background-color: transparent;
 }
 
 .sing__lable2 {
@@ -86,6 +86,7 @@
     color: #2DA5F3;
     font-size: 14px;
     padding-left: 186px;
+    white-space: nowrap;
 }
 
 .sing__button2__img {
@@ -95,12 +96,12 @@
 }
 
 .sing__button2 {
-    width: 360px;
+    width: 95%;
     height: 48px;
-    background-color: var(--orenge-color);
+    background-color: #5468E7;
     border: none;
     padding-left: 130px;
-    margin-left: 32px;
+    margin-left: 12px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
@@ -117,10 +118,11 @@ hr {
 }
 
 .sing__mini__card {
-    width: 360px;
+    max-width: 95%;
+    width: 100%;
     height: 44px;
     border: 2px solid #E4E7E9;
-    margin-left: 32px;
+    margin-left: 12px;
     padding-top: 10px;
     padding-left: 16px;
     margin-top: 30px;
@@ -140,4 +142,156 @@ hr {
 
 .sing__mini__card a {
     color: black;
+}
+
+@media (max-width:900px) {
+    .sing__card {
+        margin-left: 180px;
+    }
+
+    #sing {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .sing__card {
+        margin-left: 120px;
+
+    }
+}
+
+@media (max-width:600px) {
+    .sing__card {
+        margin-left: 80px;
+
+    }
+}
+
+@media (max-width:540px) {
+    .sing__card {
+        margin-left: 40px;
+
+    }
+}
+
+@media (max-width:500px) {
+    .sing__card {
+        margin-left: 20px;
+
+    }
+}
+
+@media (max-width:470px) {
+    .sing__card {
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:480px) {
+    #sing {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 404px;
+    }
+
+    .sing__lable3 {
+        padding-left: 176px;
+    }
+}
+
+@media (max-width:460px) {
+    .sing__lable3 {
+        padding-left: 140px;
+    }
+
+    #sing1 {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    #sing1 img {
+        width: 14px;
+    }
+}
+
+@media (max-width:455px) {
+    #sing {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 370px;
+    }
+}
+
+@media (max-width:430px) {
+    #sing1 {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    #sing {
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 350px;
+    }
+
+    .sing__lable3 {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width:380px) {
+    #sing {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 350px;
+    }
+
+    .sing__lable3 {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width:370px) {
+    #sing {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 350px;
+    }
+
+    .sing__lable3 {
+        padding-left: 120px;
+    }
+}
+
+@media (max-width:366px) {
+    #sing {
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+
+    .sing__card {
+        width: 350px;
+    }
+
+    .sing__lable3 {
+        padding-left: 120px;
+    }
 }
