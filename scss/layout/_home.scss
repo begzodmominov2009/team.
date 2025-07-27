@@ -306,6 +306,7 @@ body {
         font-size: 35px;
         padding-top: 300px;
         line-height: 36px;
+        padding-left: 20px;
     }
 
     .home__button {
@@ -316,10 +317,12 @@ body {
 
     .home__description {
         font-size: 16px;
+        padding-left: 20px;
     }
 
     .home__email {
-        width: 225px;
+        width: 210px;
+        margin-left: 20px;
         margin-top: 40px;
         height: 42px;
     }
@@ -337,24 +340,29 @@ body {
     }
 
     .home__title {
-        font-size: 33px;
+        font-size: 30px;
         padding-top: 300px;
         line-height: 36px;
+        padding-left: 20px;
     }
-
+    .home__description{
+        padding-left: 20px;
+        font-size: 14px;
+    }
     .home__button {
-        width: 95%;
+        width: 94%;
         margin-right: 20px;
         font-size: 16px;
         height: 42px;
         margin-top: 26px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .home__email {
-        width: 95%;
+        width: 94%;
         margin-top: 40px;
         height: 42px;
+        margin-left: 10px;
     }
 }
 
@@ -369,24 +377,63 @@ body {
         font-size: 30px;
         padding-top: 300px;
         line-height: 34px;
+        margin-left: 20px;
     }
 
     .home__button {
-        width: 95%;
+        width: 94%;
         font-size: 16px;
         height: 38px;
         margin-top: 26px;
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .home__description {
         font-size: 14px;
+        padding-left: 20px;
     }
 
     .home__email {
-        width: 95%;
+        width: 94%;
         margin-top: 40px;
         height: 38px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:360px) {
+    #home {
+        background-position: right;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home__title {
+        font-size: 27px;
+        padding-top: 300px;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+
+    .home__button {
+        width: 94%;
+        font-size: 16px;
+        height: 38px;
+        margin-top: 26px;
+        margin-left: 10px;
+    }
+
+    .home__description {
+        font-size: 13px;
+        padding-left: 20px;
+        line-height: 20px;
+    }
+
+    .home__email {
+        width: 94%;
+        margin-top: 40px;
+        height: 38px;
+        margin-left: 10px;
     }
 }
 
@@ -424,9 +471,10 @@ body {
 }
 
 @media (max-width:440px) {
-    .container{
+    .container {
         padding-left: 0px;
     }
+
     .content__info {
         display: flex;
         flex-wrap: wrap;
