@@ -1,33 +1,9 @@
-.password__contact {
-  background-color: white;
-  position: fixed;
-  z-index: 5;
-  height: 100vh;
-  width: 60vw;
-  transform: translateX(200%);
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.password__contact li {
-  border: 2px solid whitesmoke;
-  height: 50px;
-  max-width: 300px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 50px;
-}
-
 .password__content {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.password_none .password__li {
+  display: none;
 }/*# sourceMappingURL=maxfilik.css.map */

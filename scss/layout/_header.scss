@@ -267,6 +267,11 @@ header {
     .nav__img {
         padding-left: 90px;
     }
+    .nav__button{
+        font-size: 18px;
+        width: 0px;
+        padding-right: 110px;
+    }
 }
 
 @media (max-width:530px) {
@@ -300,6 +305,9 @@ header {
         width: 34px;
         margin-top: -15px;
         margin-right: -8px;
+    }
+    .nav__button{
+        width: 0px;
     }
 }
 
@@ -399,6 +407,32 @@ header {
 
 
 }
-.change  .novbar__res__menus_li{
+
+.change .novbar__res__menus_li {
     display: none !important;
+}
+.nav__button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-right: 65px;
+}
+.nav__button_img{
+    width: 25px;
+}
+
+
+#open {
+    top: 20px;
+    right: 0px;
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
 }

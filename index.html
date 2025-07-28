@@ -15,8 +15,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
- <body>
-    <div id="loading">
+<body>
+    <!-- <div id="loading">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="200"
             height="200" style="shape-rendering: auto; display: block; background: transparent;"
             xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -103,8 +103,8 @@
                 </g>
                 <g></g>
             </g>
-    </svg> 
-    </div>
+        </svg>
+    </div> -->
 
     <header id="header">
         <div class="container novbar">
@@ -141,7 +141,7 @@
         </div>
     </header>
 
-    <ul id="nav_res" class="novbar__res__menus">
+    <ul id="nav_res" class="novbar__res__menus ">
         <div class="novbar__res__profile novbar__res__menus_li">
             <img src="./assets/images/avatot.svg" alt="logo">
             <p class="nav__profile__description1">Begzod</p>
@@ -197,38 +197,89 @@
                 <a href="./scss/pages/register.html">Log In</a>
             </div>
         </li>
-        <li id="Confidential">
+        <li class="novbar__res__menus_li" id="Confidential">
             <div class="nav__img">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
                     fill="#1f1f1f#1f1f1f#1f1f1f">
                     <path
                         d="M420-360h120l-23-129q20-10 31.5-29t11.5-42q0-33-23.5-56.5T480-640q-33 0-56.5 23.5T400-560q0 23 11.5 42t31.5 29l-23 129Zm60 280q-139-35-229.5-159.5T160-516v-244l320-120 320 120v244q0 152-90.5 276.5T480-80Zm0-84q104-33 172-132t68-220v-189l-240-90-240 90v189q0 121 68 220t172 132Zm0-316Z" />
                 </svg>
-                <button>Confidential</button>
+                <div>
+                    <button class="nav__button">Confidential</button>
+                </div>
             </div>
         </li>
-        <li id="close">
-            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000">
+        <li  class="novbar__res__menus_li" id="close">
+            <svg class="nav_button_img" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960"
+                width="30px" fill="#000000">
                 <path
                     d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
             </svg>
         </li>
-        <li>
-            <div" class="nav__img__logo">
-                <a href="https://www.youtube.com/">
-                    <img src="./assets/images/youtube.png" alt="logo">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="./assets/images/instagram.png" alt="logo">
-                </a>
-                <a href="https://x.com/">
-                    <img src="./assets/images/twitter.png" alt="logo">
-                </a>
+        <div id="password__head">
+            <li class="password__li">
+                <div class="password__content">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#1f1f1f#1f1f1f#1f1f1f">
+                        <path
+                            d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm0-80h480v-400H240v400Zm240-120q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80ZM240-160v-400 400Z" />
+                    </svg>
+                    <p>Change Password</p>
                 </div>
+            </li>
+            <li class="password__li">
+                <div class="password__content">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#1f1f1f#1f1f1f#1f1f1f">
+                        <path
+                            d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" />
+                    </svg>
+                    <p>Dalet</p>
+                </div>
+            </li>
+            <li class="password__li">
+                <div class="password__content">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#1f1f1f#1f1f1f#1f1f1f">
+                        <path
+                            d="m80-160 240-320L80-800h520q19 0 36 8.5t28 23.5l216 288-216 288q-11 15-28 23.5t-36 8.5H80Zm160-80h360l180-240-180-240H240l180 240-180 240Zm270-240Z" />
+                    </svg>
+                    <p>important</p>
+                </div>
+            </li>
+            <li class="password__li">
+                <div class="password__content">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#1f1f1f#1f1f1f#1f1f1f">
+                        <path
+                            d="M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q54 0 104-17.5t92-50.5L228-676q-33 42-50.5 92T160-480q0 134 93 227t227 93Zm252-124q33-42 50.5-92T800-480q0-134-93-227t-227-93q-54 0-104 17.5T284-732l448 448Z" />
+                    </svg>
+                    <p>Spam</p>
+                </div>
+            </li>
+            <li id="open">
+                <svg class="password__li" xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960"
+                    width="30px" fill="#000000">
+                    <path
+                        d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </li>
+            <li>
+        </div>
+        <div class="nav__img__logo">
+            <a href="https://www.youtube.com/">
+                <img src="./assets/images/youtube.png" alt="logo">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="./assets/images/instagram.png" alt="logo">
+            </a>
+            <a href="https://x.com/">
+                <img src="./assets/images/twitter.png" alt="logo">
+            </a>
+        </div>
         </li>
     </ul>
-
-     <ul id="password" class="password__contact">
+    <!-- <ul id="password" class="password__contact">
         <li>
             <div class="password__content">
                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
@@ -269,7 +320,13 @@
                 <p>important</p>
             </div>
         </li>
-    </ul>
+        <li id="open">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000">
+                <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+        </li>
+    </ul> -->
 
     <main>
         <section id="home">
@@ -375,7 +432,7 @@
             </div>
         </section>
 
-        <section id="about">
+         <section id="about">
             <div class="container">
                 <h1 class="about__title">What people say about Team</h1>
                 <div class="owl-carousel owl-theme about__cards">
@@ -518,6 +575,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./Js/main.js"></script>
 
-</body> -->
+</body>
 
 </html>

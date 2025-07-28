@@ -4,16 +4,30 @@ const close = document.getElementById("close");
 const header = document.getElementById("header");
 const loading = document.getElementById("loading");
 const Confidential = document.getElementById("Confidential");
-const password = document.getElementById("password");
+const password_head = document.getElementById("password__head")
+const open = document.getElementById("open");
 
-// Confidential.addEventListener("click" , () => {
-//     NavRes.classList.add("change");
-// })
+MenuToggle.addEventListener("click", () => {
+    password_head.classList.add("password_none");
+})
+Confidential.addEventListener("click" , () => {
+    password_head.classList.remove("password_none");
+})
+open.addEventListener("click" , () => {
+    NavRes.classList.add("password_none");
+})
 
+Confidential.addEventListener("click", () => {
+    NavRes.classList.add("change");
+})
+
+close.addEventListener("click", () => {
+   password_head
+})
 
 window.addEventListener("load", () => {
     setTimeout(() => {
-    loading.classList.add("stop-load")
+        loading.classList.add("stop-load")
 
     }, 3000)
 })
@@ -44,6 +58,9 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeour: 50,
     responsive: {
         0: {
+            items: 1
+        },
+        400: {
             items: 1
         },
         600: {

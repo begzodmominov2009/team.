@@ -513,10 +513,6 @@ body {
 }
 
 @media (max-width:440px) {
-    .container {
-        padding-left: 0px;
-    }
-
     .content__info {
         display: flex;
         flex-wrap: wrap;
@@ -557,39 +553,6 @@ body {
     }
 }
 
-@media (max-width:1050px) {
-    .about__cards {
-        display: flex;
-        flex-wrap: wrap;
-        padding-right: px;
-    }
-}
-
-@media (max-width:800px) {
-    .about__cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .about__title {
-        font-size: 30px;
-    }
-
-    .about__card__additior {
-        margin-top: 10px;
-    }
-
-    .about__card {
-        margin-top: 30px;
-    }
-}
-@media (max-width:450px) {
-    .about__title{
-        font-size: 24px;
-    }
-}
-
 .owl-nav {
     position: absolute;
     top: 10px;
@@ -610,7 +573,7 @@ body {
     align-items: center;
 }
 
-.owl-next{
+.owl-next {
     width: 30px;
     height: 30px;
     transition: 0.5s;
@@ -624,16 +587,20 @@ body {
     justify-content: center;
     align-items: center;
 }
-.owl-prev:hover{
+
+.owl-prev:hover {
     background-color: gray;
 }
-.owl-prev:hover span{
+
+.owl-prev:hover span {
     color: white;
 }
-.owl-next:hover span{
+
+.owl-next:hover span {
     color: white;
 }
-#loading{
+
+#loading {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -645,10 +612,12 @@ body {
     z-index: 10;
     transition: 4s;
 }
-#loading img{
+
+#loading img {
     width: 80px;
 }
-.stop-load{
+
+.stop-load {
     opacity: 0;
     z-index: -1 !important;
 }
