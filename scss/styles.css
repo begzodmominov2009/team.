@@ -177,6 +177,7 @@ header {
   }
   .novbar svg {
     display: block;
+    margin-right: 20px;
   }
 }
 @media (max-width: 460px) {
@@ -234,7 +235,7 @@ header {
   gap: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  border-top-left-radius: 25px;
+  border-top-left-radius: 35px;
   border-bottom-left-radius: 25px;
   transition: 0.5s;
 }
@@ -434,6 +435,10 @@ header {
     margin-right: -8px;
   }
 }
+.change .novbar__res__menus_li {
+  display: none !important;
+}
+
 #home {
   background-image: url("../../assets/images/christina-wocintechchat-com-L85a1k-XqH8-unsplash 1.png");
   background-position: center;
@@ -1593,4 +1598,36 @@ hr {
     font-size: 14px;
     padding-left: 2;
   }
+}
+.password__contact {
+  background-color: white;
+  position: fixed;
+  z-index: 5;
+  height: 100vh;
+  width: 60vw;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.password__contact li {
+  border: 2px solid whitesmoke;
+  height: 50px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.password__content {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

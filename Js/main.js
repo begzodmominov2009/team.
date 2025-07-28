@@ -3,11 +3,20 @@ const NavRes = document.getElementById("nav_res");
 const close = document.getElementById("close");
 const header = document.getElementById("header");
 const loading = document.getElementById("loading");
+const Confidential = document.getElementById("Confidential");
+const password = document.getElementById("password");
+
+// Confidential.addEventListener("click" , () => {
+//     NavRes.classList.add("change");
+// })
 
 
-window.addEventListener("load" , () => {
+window.addEventListener("load", () => {
+    setTimeout(() => {
     loading.classList.add("stop-load")
-} , 3000)
+
+    }, 3000)
+})
 
 MenuToggle.addEventListener("click", () => {
     NavRes.classList.add("show");
@@ -31,7 +40,7 @@ $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
-    autoplay:true,
+    autoplay: true,
     autoplayTimeour: 50,
     responsive: {
         0: {
