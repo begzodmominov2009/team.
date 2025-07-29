@@ -1438,6 +1438,9 @@ hr {
   .sing__card {
     width: 370px;
   }
+  .sing__button2 {
+    padding-left: 130px;
+  }
 }
 @media (max-width: 400px) {
   #sing {
@@ -1461,6 +1464,9 @@ hr {
   }
   .sing__lable3 {
     padding-left: 120px;
+  }
+  .sing__button2 {
+    padding-left: 125px;
   }
 }
 @media (max-width: 370px) {
@@ -1600,12 +1606,20 @@ hr {
     margin-right: 10px;
   }
 }
+@media (max-width: 480px) {
+  .forget__button {
+    padding-left: 140px;
+  }
+}
 @media (max-width: 430px) {
   #forget {
     margin-right: 15px;
   }
   .forget__card {
     width: 400px;
+  }
+  .forget__button {
+    padding-left: 120px;
   }
   .forget__content {
     display: flex;
@@ -1619,7 +1633,7 @@ hr {
     padding-left: 2;
   }
 }
-@media (max-width: 39px) {
+@media (max-width: 390px) {
   #forget {
     margin-right: 15px;
   }
@@ -1633,9 +1647,22 @@ hr {
     margin-right: 1% px;
     margin-left: 4%;
   }
+  .forget__button {
+    padding-left: 95px;
+  }
   #sing1 {
     font-size: 14px;
     padding-left: 2;
+  }
+}
+@media (max-width: 378px) {
+  .forget__button {
+    padding-left: 84px;
+  }
+}
+@media (max-width: 440px) {
+  .forget__button {
+    padding-left: 115px;
   }
 }
 .password__content {
