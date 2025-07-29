@@ -7,14 +7,17 @@ const Confidential = document.getElementById("Confidential");
 const password_head = document.getElementById("password__head")
 const open = document.getElementById("open");
 
+
+open.addEventListener("click" , () => {
+    password_head.classList.add("password_none");
+    NavRes.classList.remove("change")
+})
+
 MenuToggle.addEventListener("click", () => {
     password_head.classList.add("password_none");
 })
 Confidential.addEventListener("click" , () => {
     password_head.classList.remove("password_none");
-})
-open.addEventListener("click" , () => {
-    NavRes.classList.add("password_none");
 })
 
 Confidential.addEventListener("click", () => {

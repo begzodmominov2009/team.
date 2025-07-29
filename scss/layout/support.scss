@@ -1,0 +1,126 @@
+#support {
+    padding-top: 228px;
+}
+
+.support__title {
+    font-family: Lexend Deca;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 50px;
+    leading-trim: NONE;
+    line-height: 64px;
+    letter-spacing: 0%;
+    padding-left: 198px;
+}
+
+.support__profile {
+    padding-left: 198px;
+    padding-top: 56px;
+}
+
+.support__img {
+    padding-left: 99px;
+    padding-top: 56px;
+}
+
+.support__description {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.support__mark {
+    width: 100%;
+    max-width: 544px;
+    margin-top: 80px;
+
+}
+
+.support__mark img {
+    width: 4;
+    height: 4;
+}
+
+.support__content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 198px;
+
+}
+
+.support__mark__description {
+    font-family: Lexend Deca;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 26px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    color: #C897E4;
+}
+
+.support__mark__title {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-top: 12px;
+}
+
+.support__mark__description2 {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 23px;
+    letter-spacing: 1%;
+
+}
+
+#hero {
+    margin-top: 240px;
+    padding-bottom: 160px;
+}
+
+.hero__title {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding-left: 198px;
+}
+
+.hero__contact {
+    display: flex;
+    gap: 25px;
+    padding-left: 198px;
+    padding-top: 50px;
+}
+
+.hero__text {
+    width: 692px;
+    height: 192px;
+    outline: none;
+    border: 2px solid whitesmoke;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.hero__contact {
+    width: 56;
+    height: 56;
+}

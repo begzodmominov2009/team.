@@ -117,40 +117,31 @@ body {
 }
 
 @media (max-width:460px) {
-    .about__cards {
-        margin-left: 50px;
-    }
+   
 }
 
 @media (max-width:410px) {
-    .about__cards {
-        margin-left: 35px
-    }
+  
 }
 
 @media (max-width:390px) {
-    .about__cards {
-        margin-left: 11px;
-    }
+  
 }
 
 @media (max-width:386px) {
-    .about__cards {
-        margin-left: 20px;
-    }
+  
 
     .about__card {
-        width: 327px;
+        max-width: 327px;
+        width: 100%;
     }
 }
 
 @media (max-width:370px) {
-    .about__cards {
-        margin-left: 15px;
-    }
 
     .about__card {
-        width: 317px;
+        max-width: 317px;
+        width: 100%;
     }
 }
 
