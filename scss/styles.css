@@ -1026,18 +1026,6 @@ body {
   align-items: center;
 }
 
-.owl-prev:hover {
-  background-color: gray;
-}
-
-.owl-prev:hover span {
-  color: white;
-}
-
-.owl-next:hover span {
-  color: white;
-}
-
 #loading {
   position: fixed;
   width: 100vw;
@@ -1789,7 +1777,7 @@ hr {
   line-height: 150%;
   letter-spacing: 0%;
   padding-left: 198px;
-  padding-top: 240px;
+  margin-top: -180px;
 }
 
 .hero__contact {
