@@ -2366,6 +2366,9 @@ hr {
   .change__mini__card {
     padding-left: 0px;
   }
+  .change__card {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 395px) {
   .change__button {
@@ -2374,6 +2377,9 @@ hr {
   .change__mini__card {
     padding-left: -20px;
     font-size: 15px;
+  }
+  .change__card {
+    margin-top: 40px;
   }
 }
 .change__lable2 {
