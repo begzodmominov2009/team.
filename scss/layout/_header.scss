@@ -503,12 +503,11 @@ header {
 
 
 #open {
-    top: 40px;
-    right: 0px;
-    width: 40px;
+    top: 70px;
+    left: 10px;
+    margin-left: -80px;
     background-color: transparent;
     position: absolute;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -524,14 +523,15 @@ header {
 #privacy__content h3{
 font-size: 30px;
 padding-bottom: 30px;
+padding-top: 40px;
 }
 #privacy__content p{
     line-height: 24px;
 }
 
 #privacy__close {
-    top: 40px;
-    right: 0px;
+    top: 10px;
+    left: 5px;
     width: 40px;
     background-color: transparent;
     position: absolute;
@@ -546,4 +546,27 @@ padding-bottom: 30px;
 }
 .data__hide{
     display: none;
+}
+#data__close {
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+#Data h3{
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+#Data p{
+    line-height: 24px;
 }

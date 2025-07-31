@@ -8,52 +8,55 @@ const password_head = document.getElementById("password__head");
 const open = document.getElementById("open");
 const privacy__content = document.getElementById("privacy__content");
 const privacy__head = document.getElementById("privacy__head");
-const privacy__close = document.getElementById("privacy__close")
 const data = document.getElementById("Data");
-const Data__head = document.getElementById("Data__head");
+const data__head = document.getElementById("data__head");
+const privacy__close = document.getElementById("privacy__close")
+const data__close = document.getElementById("data__close")
 
 
 
 
+data__close.addEventListener("click" , () => {
+    password_head.classList.remove("password_none")
+}) 
+data__close.addEventListener("click" , () => {
+    data.classList.add("data__hide")
+})
 
-
-
-
+data__head.addEventListener("click" , () => {
+    data.classList.remove("data__hide")
+})
+data__head.addEventListener("click" , () => {
+    password_head.classList.add("password_none")    
+})
 
 MenuToggle.addEventListener("click" , () => {
-    data.classList.add("data__hide");
+    data.classList.add("data__hide")
 })
-Confidential.addEventListener("click" , () => {
-    data.classList.add("data__hide");
+
+privacy__close.addEventListener("click", () => {
+    privacy__content.classList.add("hide")
 })
-MenuToggle.addEventListener("click" , () => {
-    privacy__close.classList.add("hide")
+privacy__close.addEventListener("click", () => {
+    password_head.classList.remove("password_none")
 })
-privacy__head.addEventListener("click" , () => {
-    privacy__close.classList.remove("hide")
-})
+
 privacy__head.addEventListener("click", () => {
     password_head.classList.add("password_none");
 })
-privacy__head.addEventListener("click" , () => {
+privacy__head.addEventListener("click", () => {
     privacy__content.classList.remove("hide");
 })
 Confidential.addEventListener("click", () => {
     privacy__content.classList.add("hide");
 })
-MenuToggle.addEventListener("click" , () => {
+MenuToggle.addEventListener("click", () => {
     privacy__content.classList.add("hide");
 })
-
-
-
 
 open.addEventListener("click", () => {
     password_head.classList.add("password_none");
     NavRes.classList.remove("change")
-})
-window.addEventListener("scroll", () => {
-    NavRes.classList.remove("show")
 })
 
 MenuToggle.addEventListener("click", () => {
@@ -93,9 +96,19 @@ window.addEventListener("scroll", () => {
         header.classList.remove("shrink");
     }
 })
+
+window.addEventListener("scroll", () => {
+    NavRes.classList.remove("show")
+})
+
+window.addEventListener("scroll", () => {
+    NavRes.classList.remove("change")
+})
+
 $(document).ready(function () {
     $(".owl-carousel").owlCarousel();
 });
+
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
