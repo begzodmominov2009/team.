@@ -294,6 +294,10 @@ header {
   margin-top: 10px;
 }
 
+.nav__btn a {
+  color: black;
+}
+
 .nav__btn button {
   border: none;
   background-color: transparent;
