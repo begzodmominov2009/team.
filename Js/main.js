@@ -12,6 +12,9 @@ open.addEventListener("click" , () => {
     password_head.classList.add("password_none");
     NavRes.classList.remove("change")
 })
+window.addEventListener("scroll" , () => {
+    NavRes.classList.remove("show")
+})
 
 MenuToggle.addEventListener("click", () => {
     password_head.classList.add("password_none");
