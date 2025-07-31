@@ -540,6 +540,39 @@ header {
   border-radius: 50px;
 }
 
+.hide {
+  display: none;
+}
+
+#privacy__content h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+#privacy__content p {
+  line-height: 24px;
+}
+
+#privacy__close {
+  top: 40px;
+  right: 0px;
+  width: 40px;
+  background-color: transparent;
+  position: absolute;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: 0.5s;
+  border-radius: 50px;
+}
+
+.data__hide {
+  display: none;
+}
+
 #home {
   background-image: url("../../assets/images/christina-wocintechchat-com-L85a1k-XqH8-unsplash 1.png");
   background-position: center;
@@ -1698,7 +1731,8 @@ hr {
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 30px;
+  padding-left: 20px;
+  gap: 10px;
 }
 
 .password__head li {

@@ -225,7 +225,8 @@ header {
     margin-left: 10px;
     margin-top: 10px;
 }
-.nav__btn a{
+
+.nav__btn a {
     color: black;
 }
 
@@ -235,37 +236,45 @@ header {
     font-size: 18px;
 
 }
+
 @media (max-width:500px) {
-    .nav__btn{
+    .nav__btn {
         margin-left: 20px;
     }
 }
+
 @media (max-width:450px) {
-    .nav__btn{
+    .nav__btn {
         margin-left: 40px;
     }
 }
+
 @media (max-width:400px) {
-    .nav__btn{
+    .nav__btn {
         margin-left: 25px;
     }
-    .nav__btn button{
+
+    .nav__btn button {
         font-size: 16px;
     }
 }
+
 @media (max-width:390px) {
-    .nav__btn{
+    .nav__btn {
         margin-left: 30px;
     }
-    .nav__btn button{
+
+    .nav__btn button {
         font-size: 16px;
     }
 }
+
 @media (max-width:370px) {
-    .nav__btn{
+    .nav__btn {
         margin-left: 10px;
     }
-    .nav__btn button{
+
+    .nav__btn button {
         font-size: 14px;
     }
 }
@@ -365,11 +374,13 @@ header {
         width: 0px;
     }
 }
+
 @media (max-width:480px) {
-    .nav__btn{
+    .nav__btn {
         padding-left: 0px;
     }
 }
+
 @media (max-width:440px) {
     .nav__img {
         padding-left: 60px;
@@ -398,7 +409,8 @@ header {
         margin-top: -15px;
         margin-right: -8px;
     }
-    .nav__btn{
+
+    .nav__btn {
         padding-left: 0px;
     }
 
@@ -480,7 +492,8 @@ header {
     font-size: 20px;
     margin-right: 65px;
 }
-.nav__btn button a{
+
+.nav__btn button a {
     color: black;
 }
 
@@ -503,4 +516,34 @@ header {
     border: 2px solid transparent;
     transition: 0.5s;
     border-radius: 50px;
+}
+
+.hide {
+    display: none;
+}
+#privacy__content h3{
+font-size: 30px;
+padding-bottom: 30px;
+}
+#privacy__content p{
+    line-height: 24px;
+}
+
+#privacy__close {
+    top: 40px;
+    right: 0px;
+    width: 40px;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+.data__hide{
+    display: none;
 }

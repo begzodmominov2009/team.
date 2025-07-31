@@ -4,22 +4,62 @@ const close = document.getElementById("close");
 const header = document.getElementById("header");
 const loading = document.getElementById("loading");
 const Confidential = document.getElementById("Confidential");
-const password_head = document.getElementById("password__head")
+const password_head = document.getElementById("password__head");
 const open = document.getElementById("open");
+const privacy__content = document.getElementById("privacy__content");
+const privacy__head = document.getElementById("privacy__head");
+const privacy__close = document.getElementById("privacy__close")
+const data = document.getElementById("Data");
+const Data__head = document.getElementById("Data__head");
 
 
-open.addEventListener("click" , () => {
+
+
+
+
+
+
+
+MenuToggle.addEventListener("click" , () => {
+    data.classList.add("data__hide");
+})
+Confidential.addEventListener("click" , () => {
+    data.classList.add("data__hide");
+})
+MenuToggle.addEventListener("click" , () => {
+    privacy__close.classList.add("hide")
+})
+privacy__head.addEventListener("click" , () => {
+    privacy__close.classList.remove("hide")
+})
+privacy__head.addEventListener("click", () => {
+    password_head.classList.add("password_none");
+})
+privacy__head.addEventListener("click" , () => {
+    privacy__content.classList.remove("hide");
+})
+Confidential.addEventListener("click", () => {
+    privacy__content.classList.add("hide");
+})
+MenuToggle.addEventListener("click" , () => {
+    privacy__content.classList.add("hide");
+})
+
+
+
+
+open.addEventListener("click", () => {
     password_head.classList.add("password_none");
     NavRes.classList.remove("change")
 })
-window.addEventListener("scroll" , () => {
+window.addEventListener("scroll", () => {
     NavRes.classList.remove("show")
 })
 
 MenuToggle.addEventListener("click", () => {
     password_head.classList.add("password_none");
 })
-Confidential.addEventListener("click" , () => {
+Confidential.addEventListener("click", () => {
     password_head.classList.remove("password_none");
 })
 
@@ -28,7 +68,7 @@ Confidential.addEventListener("click", () => {
 })
 
 close.addEventListener("click", () => {
-   password_head
+    password_head
 })
 
 window.addEventListener("load", () => {
