@@ -15,8 +15,49 @@
 }
 
 .password__content {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center I !important;
-  max-width: 300px !important;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30px;
+}
+
+.password__head li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password__li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+  .password__content {
+    width: 220px;
+  }
+}
+@media (max-width: 480px) {
+  .password__content {
+    width: 200px;
+  }
+}
+@media (max-width: 460px) {
+  .password__content {
+    width: 200px;
+  }
+}
+@media (max-width: 395px) {
+  .password__content {
+    width: 180px;
+  }
+}
+@media (max-width: 375px) {
+  .password__content {
+    width: 160px;
+    padding-left: 20px;
+  }
 }/*# sourceMappingURL=maxfilik.css.map */

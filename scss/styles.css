@@ -419,6 +419,11 @@ header {
     width: 0px;
   }
 }
+@media (max-width: 480px) {
+  .nav__btn {
+    padding-left: 0px;
+  }
+}
 @media (max-width: 440px) {
   .nav__img {
     padding-left: 60px;
@@ -441,6 +446,9 @@ header {
     width: 34px;
     margin-top: -15px;
     margin-right: -8px;
+  }
+  .nav__btn {
+    padding-left: 0px;
   }
 }
 @media (max-width: 400px) {
@@ -1674,12 +1682,52 @@ hr {
 }
 
 .password__content {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center I !important;
-  max-width: 300px !important;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 30px;
 }
 
+.password__head li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password__li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 500px) {
+  .password__content {
+    width: 220px;
+  }
+}
+@media (max-width: 480px) {
+  .password__content {
+    width: 200px;
+  }
+}
+@media (max-width: 460px) {
+  .password__content {
+    width: 200px;
+  }
+}
+@media (max-width: 395px) {
+  .password__content {
+    width: 180px;
+  }
+}
+@media (max-width: 375px) {
+  .password__content {
+    width: 160px;
+    padding-left: 20px;
+  }
+}
 #support {
   padding-top: 228px;
 }
@@ -2250,5 +2298,133 @@ hr {
   }
   #hero {
     padding-bottom: -230px;
+  }
+}
+.change__card {
+  max-width: 424px;
+  width: 100%;
+  height: 470px;
+  border: 2px solid #E4E7E9;
+  border-radius: 4px;
+  margin-top: 80px;
+  padding-top: 25px;
+}
+
+.change__description2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.change__description {
+  text-align: center;
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
+.change__mini__card {
+  padding-left: 35px;
+}
+
+.change__lable {
+  padding-left: 15px;
+}
+
+.change__button {
+  padding-left: 145px;
+}
+
+@media (max-width: 800px) {
+  .change__card {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 450px) {
+  .change__button {
+    padding-left: 130px;
+  }
+  .change__mini__card {
+    padding-left: 20px;
+  }
+  .change__card {
+    padding-right: 6px;
+  }
+}
+@media (max-width: 420px) {
+  .change__button {
+    padding-left: 110px;
+  }
+  .change__mini__card {
+    padding-left: 5px;
+  }
+}
+@media (max-width: 450px) {
+  .change__button {
+    padding-left: 110px;
+  }
+  .change__mini__card {
+    padding-left: 0px;
+  }
+}
+@media (max-width: 395px) {
+  .change__button {
+    padding-left: 100px;
+  }
+  .change__mini__card {
+    padding-left: -20px;
+    font-size: 15px;
+  }
+}
+.change__lable2 {
+  width: 30px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.change__lable3 {
+  width: 30px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.change__lable4 {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid grey;
+}
+
+.change__lable5 {
+  width: 30px;
+  height: 30px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+.change__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.change__card2 {
+  height: 370px;
+}
+
+@media (max-width: 420px) {
+  .change__button2 {
+    padding-left: 95px;
+  }
+  .change__card2 {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 390px) {
+  .change__button2 {
+    padding-left: 85px;
   }
 }/*# sourceMappingURL=styles.css.map */
