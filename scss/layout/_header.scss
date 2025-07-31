@@ -304,8 +304,8 @@ header {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 60;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -503,7 +503,7 @@ header {
 
 
 #open {
-    top: 70px;
+    top: 40px;
     left: 10px;
     margin-left: -80px;
     background-color: transparent;
@@ -520,12 +520,13 @@ header {
 .hide {
     display: none;
 }
-#privacy__content h3{
-font-size: 30px;
-padding-bottom: 30px;
-padding-top: 40px;
+
+#privacy__content h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
 }
-#privacy__content p{
+
+#privacy__content p {
     line-height: 24px;
 }
 
@@ -544,9 +545,11 @@ padding-top: 40px;
     transition: 0.5s;
     border-radius: 50px;
 }
-.data__hide{
+
+.data__hide {
     display: none;
 }
+
 #data__close {
     top: 10px;
     left: 5px;
@@ -562,11 +565,76 @@ padding-top: 40px;
     transition: 0.5s;
     border-radius: 50px;
 }
-#Data h3{
+
+#Data h3 {
     font-size: 30px;
     padding-bottom: 30px;
     margin-top: 10px;
 }
-#Data p{
+
+#Data p {
     line-height: 24px;
+}
+
+.securty_hide {
+    display: none;
+}
+
+#securty h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 120px;
+
+}
+
+#securty p {
+    line-height: 24px;
+    overflow: scroll;
+}
+
+#securty__close {
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+
+.user__hide {
+    display: none;
+}
+
+#user_rights h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 200px;
+}
+
+#user_rights p {
+    line-height: 24px;
+    overflow: scroll;
+}
+
+#user__close {
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    background-color: transparent;
+    position: absolute;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+    border-radius: 50px;
 }

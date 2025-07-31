@@ -10,27 +10,65 @@ const privacy__content = document.getElementById("privacy__content");
 const privacy__head = document.getElementById("privacy__head");
 const data = document.getElementById("Data");
 const data__head = document.getElementById("data__head");
-const privacy__close = document.getElementById("privacy__close")
-const data__close = document.getElementById("data__close")
+const privacy__close = document.getElementById("privacy__close");
+const data__close = document.getElementById("data__close");
+const securty = document.getElementById("securty");
+const securty__close = document.getElementById("securty__close");
+const user_rights = document.getElementById("user_rights");
+const user_rights_head = document.getElementById("user_rights_head");
+const user__close = document.getElementById("user__close");
 
 
 
-
-data__close.addEventListener("click" , () => {
+user__close.addEventListener("click" , () => {
     password_head.classList.remove("password_none")
-}) 
-data__close.addEventListener("click" , () => {
+} )
+user__close.addEventListener("click" , () => {
+    user_rights.classList.add("user__hide")
+})
+user_rights_head.addEventListener("click", () => {
+    password_head.classList.add("password_none")
+})
+user_rights_head.addEventListener("click", () => {
+    user_rights.classList.remove("user__hide")
+})
+MenuToggle.addEventListener("click", () => {
+    user_rights.classList.add("user__hide")
+})
+
+securty__close.addEventListener("click", () => {
+    securty.classList.add("securty_hide")
+})
+securty__close.addEventListener("click", () => {
+    password_head.classList.remove("password_none")
+})
+
+securty_head.addEventListener("click", () => {
+    securty.classList.remove("securty_hide")
+})
+securty_head.addEventListener("click", () => {
+    password_head.classList.add("password_none")
+})
+MenuToggle.addEventListener("click", () => {
+    securty.classList.add("securty_hide")
+})
+
+
+data__close.addEventListener("click", () => {
+    password_head.classList.remove("password_none")
+})
+data__close.addEventListener("click", () => {
     data.classList.add("data__hide")
 })
 
-data__head.addEventListener("click" , () => {
+data__head.addEventListener("click", () => {
     data.classList.remove("data__hide")
 })
-data__head.addEventListener("click" , () => {
-    password_head.classList.add("password_none")    
+data__head.addEventListener("click", () => {
+    password_head.classList.add("password_none")
 })
 
-MenuToggle.addEventListener("click" , () => {
+MenuToggle.addEventListener("click", () => {
     data.classList.add("data__hide")
 })
 
