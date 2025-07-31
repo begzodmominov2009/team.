@@ -190,4 +190,11 @@
   .team__description {
     line-height: 20px;
   }
+  .info__card__profile__additior3 {
+    margin-top: 0px;
+  }
+  .info__card__profile__additior6 {
+    margin-top: -40px;
+    padding-left: 60px;
+  }
 }/*# sourceMappingURL=blog.css.map */
