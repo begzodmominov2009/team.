@@ -2440,4 +2440,98 @@ hr {
   .change__button2 {
     padding-left: 85px;
   }
+}
+body {
+  background-color: white;
+}
+
+.end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 300px;
+}
+
+.end img {
+  width: 140px;
+}
+
+.end h1 {
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.end1 button {
+  width: 160px;
+  height: 38px;
+  margin-left: 550px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  margin-top: 25px;
+  transition: 0.7s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.end1 button a {
+  color: black;
+}
+
+.end1 button:hover {
+  background-color: #2DA5F3;
+  border: none;
+}
+
+.end1 button:hover a {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .end1 button {
+    margin-left: 350px;
+  }
+}
+@media (max-width: 700px) {
+  .end1 button {
+    margin-left: 250px;
+  }
+}
+@media (max-width: 550px) {
+  .end1 button {
+    margin-left: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .end1 button {
+    margin-left: 150px;
+  }
+}
+@media (max-width: 430px) {
+  .end1 button {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 410px) {
+  .end img {
+    width: 120px;
+  }
+  .end h1 {
+    font-size: 28px;
+  }
+  .end1 button {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 385px) {
+  .end img {
+    width: 110px;
+  }
+  .end h1 {
+    font-size: 26px;
+  }
+  .end1 button {
+    margin-left: 80px;
+  }
 }/*# sourceMappingURL=styles.css.map */
